@@ -66,4 +66,4 @@ highlight_name: true
 website: ""
 ---
 
-I am an enthusiast of math, synthetic biology and computer science. I am working this summer 2024 on a project to implement a complexity score script into the iGEM Engineering workflow.
+I am an enthusiast of math, synthetic biology and computer science. I am working this summer 2024 on a project to integrate a complexity score script into the iGEM Engineering workflow.
