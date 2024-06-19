@@ -1,51 +1,63 @@
 ---
 # Display name
-title: 吳健雄
+title: Johan Guillen Meza
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Johan
+last_name: Guillen Meza
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🧬
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+#role: Soon-to-be PhD student in Engineering Biology at the University of Bristol
 
 # Organizations/Affiliations to show in About widget
-organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+#organizations:
+#  - name: Stanford University
+#    url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include biocomputation, synthetic biology for climate change, biosecurity  and biomaterials.
+
+interests:
+  - Synthetic Biology 🧬
+  - Applied Mathematics🧠
+  - Artificial Intelligence🤖
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:johanguillen15@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  #- icon: brands/x
+  #  url: https://twitter.com/GetResearchDev
+  #- icon: brands/instagram
+  #  url: https://www.instagram.com/
+  - icon: brands/github
+    url: https://github.com/jguillen15
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/jfgm1598/
+  #- icon: academicons/google-scholar
+  #  url: https://scholar.google.com/
+  #- icon: academicons/orcid
+  #  url: https://orcid.org/
+
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./post/index.xml
-    label: Subscribe to my blog via RSS feed
+  #- icon: academicons/cv
+  #  url: uploads/resume.pdf
+  #  label: Download my resume
+  #- icon: rss
+  #  url: ./post/index.xml
+  #  label: Subscribe to my blog via RSS feed
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -54,6 +66,4 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an enthusiast of math, synthetic biology and computer science. I am working this summer 2024 on a project to implement a complexity score script into the iGEM Engineering workflow.
