@@ -6,7 +6,7 @@ date: 2024-06-11
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [Link](www.igem.org)'
+  caption: 'Image credit: [Link](https://igem.org/)'
 
 authors:
   - admin
