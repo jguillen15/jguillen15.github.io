@@ -1,5 +1,5 @@
 ---
-title: Project description
+title: 🧑‍💻️ Project description
 summary: Project overview and motivation
 date: 2024-05-27
 
@@ -21,7 +21,7 @@ Hi 👋
 
 ## Overview and motivation
 
-This summer I am working on the Google Summer of Code(GSoC) program, under the supervision of [**Dr. Gonzalo Vidal**](https://gonza10v.github.io/), in collaboration with the iGEM Engineering Committee and the National Resource for Network Biology(NRNB)
+This summer I am working on the Google Summer of Code(GSoC) program, under the supervision of [**Dr. Gonzalo Vidal**](https://gonza10v.github.io/), in collaboration with the [iGEM Engineering Committee](https://technology.igem.org/engineering-committee) and the [National Resource for Network Biology(NRNB)](https://nrnb.org/)
 
 I am integrating a script developed to check if a genetic design is synthesizable into the iGEM Engineering workflow, using GitHub Actions. 
 

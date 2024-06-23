@@ -1,5 +1,5 @@
 ---
-title: SBOL and the complexity scores calculator utility
+title: 🧑‍💻️ SBOL and the complexity scores calculator utility
 summary: Let's breakdown the code and how it uses the Synthetic Biology Open Language(SBOL)
 date: 2024-06-22
 
@@ -20,12 +20,12 @@ authors:
 Hi 👋
 
 ## Overview
-![Integrated DNA Technologies (IDT)](IDT_logo.png)
+
 
 SBOL is a free and open-source standard for the representation of biological designs. The SBOL standard was developed by the synthetic biology community to create a standardized format for the electronic exchange of information on the structural and functional aspects of biological designs.
 
 
-
+![Integrated DNA Technologies (IDT)](IDT_logo.png)
 
 
 
