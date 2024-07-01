@@ -21,8 +21,11 @@ Hi 👋
 
 ## Overview
 
+The complexity scores calculator SBOL utility uses the SBOL standard as a way to stored the computed values.
+Let's break down what the code does:
 
-SBOL is a free and open-source standard for the representation of biological designs. The SBOL standard was developed by the synthetic biology community to create a standardized format for the electronic exchange of information on the structural and functional aspects of biological designs.
+- The script communicates with the Integrated DNA Technologies (IDT) API to calculate the complexity scores of sequences.
+
 
 
 ![Integrated DNA Technologies (IDT)](IDT_logo.png)
