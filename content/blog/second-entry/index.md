@@ -43,7 +43,7 @@ This GitHub Action workflow file is designed to automate a series of tasks to ge
 * **repo-token**:
   * **description**: The GitHub token used to manage committing and pushing changes.
   * **required**: true - This input is mandatory for the action to run.
-  * **default**: ${{ github.token }} - Default value is the GitHub token provided by the GitHub Actions runtime.
+  * **default**: **${{ github.token }}** - Default value is the GitHub token provided by the GitHub Actions runtime.
 
 ## Runs
 
@@ -81,6 +81,40 @@ This GitHub Action workflow file is designed to automate a series of tasks to ge
 
 10. **Collate packages**
   * Uses **bash** to run a Python script **collate_packages.py** to collate packages.
+
+11. **Create vector build plans**
+  * Uses **bash** to run a Python script **expand_combinations.py** to create vector build plans.
+
+12. **Generate markdown from packages**
+  * Uses **bash** to run a Python script **generate_markdown.py** to generate markdown documentation from packages.
+
+13. **Build distribution**
+  * Uses **bash** to run a Python script **build_distribution.py** to build the distribution.
+
+14. **Commit changes, ready to push**
+  * Uses **bash** to run a series of Git commands to:
+    * Configure Git user email and name.
+    * Add files to the staging area (*.nt, *.md, *.fasta, *.gb, README.md, and files in the **views** directory).
+    * Commit the changes if there are any differences.
+
+15. **Push changes**
+  * Uses **ad-m/github-push-action@master** to push the committed changes to the repository.
+  * Uses the provided **repo-token** for authentication.
+  * Pushes to the current branch **${{ github.ref }}**.
+
+## Author and Branding
+
+* **author**: iGEM-Engineering - The author of the action.
+* **branding**:
+  * **icon**: layers - The icon for the action.
+  * **color**: purple - The color for the action.
+
+## Important Points
+
+* **${{ github.token }}**: A default token provided by GitHub Actions that allows the workflow to interact with the GitHub API.
+* **${{ github.action_path }}**: The path to the directory containing the action definition file.
+* **${{ github.ref }}**: The branch or tag ref that triggered the workflow.
+
 
 
 
