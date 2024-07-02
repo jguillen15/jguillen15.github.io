@@ -35,12 +35,15 @@ This GitHub Action workflow file is designed to automate a series of tasks to ge
 
 ## Workflow Metadata
 
-* **name**: 'generate-distribution' - The name of the GitHub Action.
+* **name**: generate-distribution - The name of the GitHub Action.
 * **description**: Describes what the GitHub Action does - "A Github action to generate a distribution from user-readable files."
 
 ## Inputs
 
-
+* **repo-token**:
+  * **description**: The GitHub token used to manage committing and pushing changes.
+  * **required**: true - This input is mandatory for the action to run.
+  * **default**: ${{ github.token }} - Default value is the GitHub token provided by the GitHub Actions runtime.
 
 ## Runs
 
