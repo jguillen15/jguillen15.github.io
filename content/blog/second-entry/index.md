@@ -42,12 +42,12 @@ This GitHub Action workflow file is designed to automate a series of tasks to ge
 
 * **repo-token**:
   * **description**: The GitHub token used to manage committing and pushing changes.
-  * **required**: true - This input is mandatory for the action to run.
+  * **required**: **true** - This input is mandatory for the action to run.
   * **default**: **${{ github.token }}** - Default value is the GitHub token provided by the GitHub Actions runtime.
 
 ## Runs
 
-* **using**: composite - Indicates that this is a composite action composed of multiple steps.
+* **using**: **composite** - Indicates that this is a composite action composed of multiple steps.
 * **steps**: Each step in the composite action.
 
 ## Steps
@@ -66,35 +66,45 @@ This GitHub Action workflow file is designed to automate a series of tasks to ge
 
 5. **Regularize directories**
   * Uses **bash** to run a Python script **regularize_directories.py** to standardize directory structure.
+  The script ensures that packages directories are non-nested, that there is one Excel file per package, and that every package directory has a **views** subdirectory for storing generated artifacts.
 
 6. **Update CSVs**
   * Uses **bash** to run a Python script **export_csvs.py** to update CSV files.
+  The script exports a CSV from each user tab of a package Excel file into the corresponding **views** directory, in order to simplify version control diffs.
 
 7. **Update SBOL**
   * Uses **bash** to run a Python script **export_sbol.py** to update SBOL files.
+  The script exports an SBOL specification for the package from the package Excel file into the corresponding **views** directory. This contains all of the information in the Excel file, but is not yet fused with information from imported parts.
 
 8. **Import parts and devices**
   * Uses **bash** to run a Python script **import_parts.py** to import parts and devices.
+  The script scans package Excel files and the genetic design files in the package directory to see what parts are missing definitions. If there are missing parts with source references that the script knows how to interpret, it attempts to download them. Currently supports retrieval from NCBI and the iGEM Registry.
 
 9. **Convert SBOL2 imports to SBOL3**
   * Uses **bash** to run a Python script **convert_sbol_2to3.py** to convert SBOL2 imports to SBOL3.
+  The script changes all SBOL2 imports into SBOL3 imports that are more compatible with version control.
+Build and validate final packages.
 
 10. **Collate packages**
   * Uses **bash** to run a Python script **collate_packages.py** to collate packages.
+  The script combines a package specification and genetic design files to produce a unified SBOL file in the **views** directory.
 
 11. **Create vector build plans**
   * Uses **bash** to run a Python script **expand_combinations.py** to create vector build plans.
+  The script produces a build plan for each package and saves it into the unified package SBOL file.
 
 12. **Generate markdown from packages**
   * Uses **bash** to run a Python script **generate_markdown.py** to generate markdown documentation from packages.
+  The script generates **README** files summarizing each package.
 
 13. **Build distribution**
   * Uses **bash** to run a Python script **build_distribution.py** to build the distribution.
+  The script combines all of the packages into a single distribution file in the root directory, generates a summary **README** file, and exports **GenBank** for inspection and **FASTA** for synthesis.
 
 14. **Commit changes, ready to push**
   * Uses **bash** to run a series of Git commands to:
     * Configure Git user email and name.
-    * Add files to the staging area (*.nt, *.md, *.fasta, *.gb, README.md, and files in the **views** directory).
+    * Add files to the staging area (*.nt, *.md, *.fasta, *.gb, **README.md**, and files in the **views** directory).
     * Commit the changes if there are any differences.
 
 15. **Push changes**
