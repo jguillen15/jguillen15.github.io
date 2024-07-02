@@ -47,9 +47,40 @@ This GitHub Action workflow file is designed to automate a series of tasks to ge
 
 ## Runs
 
+* **using**: composite - Indicates that this is a composite action composed of multiple steps.
+* **steps**: Each step in the composite action.
 
+## Steps
 
+1. **Check out this repository for building**
+  * Uses **actions/checkout@v3** to check out the repository so that the workflow has access to the code.
 
+2. **Set up Python 3.9**
+  * Uses **actions/setup-python@v4** to set up Python 3.9.
+
+3. **Set up Node.js 14**
+  * Uses **actions/setup-node@v3** to set up Node.js 14.
+
+4. **Install dependencies**
+  * Uses **bash** to run commands to upgrade pip and install dependencies listed in **scripts/requirements.txt**.
+
+5. **Regularize directories**
+  * Uses **bash** to run a Python script **regularize_directories.py** to standardize directory structure.
+
+6. **Update CSVs**
+  * Uses **bash** to run a Python script **export_csvs.py** to update CSV files.
+
+7. **Update SBOL**
+  * Uses **bash** to run a Python script **export_sbol.py** to update SBOL files.
+
+8. **Import parts and devices**
+  * Uses **bash** to run a Python script **import_parts.py** to import parts and devices.
+
+9. **Convert SBOL2 imports to SBOL3**
+  * Uses **bash** to run a Python script **convert_sbol_2to3.py** to convert SBOL2 imports to SBOL3.
+
+10. **Collate packages**
+  * Uses **bash** to run a Python script **collate_packages.py** to collate packages.
 
 
 
