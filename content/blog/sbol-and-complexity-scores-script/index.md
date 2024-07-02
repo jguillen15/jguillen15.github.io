@@ -28,7 +28,7 @@ The script communicates with the [Integrated DNA Technologies (IDT) API](https:/
 
 ![Integrated DNA Technologies (IDT)](IDT_logo.png)
 
-You will need to set up your account with IDT to get your username, password, Client ID and Client Secret key, all necessary to use the tool. Please see their [documentation](https://www.idtdna.com/pages/tools/apidoc).
+You will need to set up your account with IDT to get your username, password, Client ID and Client Secret key, all necessary to use the tool. Please see their [documentation.](https://www.idtdna.com/pages/tools/apidoc)
 
 
 The script takes as an input an SBOL document with the DNA sequences in it, and returns a document with the sequences synthesis complexity scores annotated plus some relevant metadata, for instance, timestamps.
