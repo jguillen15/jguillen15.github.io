@@ -21,14 +21,14 @@ Hi 👋
 
 ## Overview
 
-The idea of the [complexity scores calculator SBOL utility](https://github.com/SynBioDex/SBOL-utilities/blob/develop/sbol_utilities/calculate_complexity_scores.py) is to compute a value that determines if a DNA sequence is synthesizable or not. It uses the SBOL standard as a way to store the computed values with their corresponding metadata.
+The idea of the [complexity scores calculator SBOL utility](https://github.com/SynBioDex/SBOL-utilities/blob/develop/sbol_utilities/calculate_complexity_scores.py) is to compute a value that determines if a DNA sequence is synthesizable or not. This is essential to know when designing a experiment, as it will save time and resources. The script uses the SBOL standard as a way to store the computed values with their corresponding metadata.
 
 
 The script communicates with the [Integrated DNA Technologies (IDT) API](https://www.idtdna.com/site/order/gblockentry) to calculate the complexity scores of sequences. This system uses the gBlock API, which is intended for sequences from 125 to 3000 base pairs(bp) in length. If it is more than 3000 bp or less than 125 bp your returned score will be 0. A complexity score in the range from 0 to 10 means your sequence is synthesizable, if the score is greater or equal than 10 means it is not synthesizable.
 
 ![Integrated DNA Technologies (IDT)](IDT_logo.png)
 
-You will need to set up your account with IDT to get your username, password, Client ID and Client Secret key, all necessary to use the tool. Please see their [documentation](https://www.idtdna.com/pages/tools/apidoc)
+You will need to set up your account with IDT to get your username, password, Client ID and Client Secret key, all necessary to use the tool. Please see their [documentation](https://www.idtdna.com/pages/tools/apidoc).
 
 
 The script takes as an input an SBOL document with the DNA sequences in it, and returns a document with the sequences synthesis complexity scores annotated plus some relevant metadata, for instance, timestamps.
