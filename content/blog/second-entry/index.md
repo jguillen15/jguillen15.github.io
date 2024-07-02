@@ -31,8 +31,18 @@ The idea is that the different iGEM packages(i.e. Plants, Anderson Promoters) ha
 
 Let's breakdown the code in the [action.yml](https://github.com/iGEM-Engineering/iGEM-actions/blob/main/action.yml) file that is in the repository. This file is in charge or running the actions when they are called from other repositories.
 
+This GitHub Action workflow file is designed to automate a series of tasks to generate a distribution from user-readable files. Below is an explanation of each part of the workflow:
+
+## Workflow Metadata
+
+* **name**: 'generate-distribution' - The name of the GitHub Action.
+* **description**: Describes what the GitHub Action does - "A Github action to generate a distribution from user-readable files."
+
+## Inputs
 
 
+
+## Runs
 
 
 
