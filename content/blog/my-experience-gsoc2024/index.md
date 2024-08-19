@@ -1,5 +1,6 @@
 ---
-title: 🧑‍💻️ My experience participating in the Google Summer of Code 2024
+title: 🧑‍💻️ My experience in the Google Summer of Code 2024
+summary: It has been a fulfilling journey
 date: 2024-08-19
 
 # Featured image
