@@ -20,4 +20,6 @@ authors:
 Hi 👋
 
 
-My experience during this Google Summer of Code 2024 has been great. It has had its ups and downs. Being disciplined has been the most difficult part. I am very grateful to my mentors.
+My experience during this Google Summer of Code 2024 has been great. It has had its ups and downs. Being disciplined has been the most difficult part of it. I am very grateful to my mentors for their continued support and encouragement.
+
+Also, many thanks to the National Resource for Network Biology(NRNB) and the Google Summer of Code team for hosting and sponsoring this project!!
