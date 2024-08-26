@@ -35,4 +35,4 @@ I am very grateful to my mentors, Gonzalo Vidal and Jake Beal, for their strong 
 
 I greatly appreciate the National Resource for Network Biology(NRNB) for checking in with me in every step of the project, and also for giving me the freedom to work on the project without pressure. They also kept me updated with all the important dates of GSoC 2024.
 
-Huge thanks to all the Google Summer of Code team for hosting and sponsoring this amazing program!!
+Huge thanks to all the Google Summer of Code team for hosting and sponsoring this amazing program.
