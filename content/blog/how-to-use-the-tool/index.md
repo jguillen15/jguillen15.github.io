@@ -31,7 +31,7 @@ The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-tem
 ![Fork 1](fork1.jpg)
 ![Fork 2](fork2.jpg)
 
-## 2. Setting up the repository
+## 2. Set up the repository
 ![Allow workflow](allow_workflow.jpg)
 ![Workflow permissions](workflow_permissions.jpg)
 
