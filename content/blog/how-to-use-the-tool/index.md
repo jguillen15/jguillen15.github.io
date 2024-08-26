@@ -31,7 +31,6 @@ The iGEM Package Template repository serve as a template for if anyone wants to 
 ![Fork 1](fork1.jpg)
 ![Fork 2](fork2.jpg)
 
-<img src="fork2.jpg" alt="Image description" width="300" height="200">
 
 ![Allow workflow](allow_workflow.jpg)
 ![Workflow permissions](workflow_permissions.jpg)
