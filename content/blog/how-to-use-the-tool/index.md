@@ -28,7 +28,7 @@ The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-tem
 # Steps
 Please follow these next steps to succesfully use the tool.
 ## 1. Fork the iGEM Package Template repository
-Go to the [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template/tree/gsoc2024) repository and fork it. Here, an example with the [Anderson Promoters Collection](https://github.com/DragonLab0/iGEM-Anderson-Promoters) is displayed, as the template itself is blank.
+Go to the [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template/tree/gsoc2024) repository and fork it. Here, an example with the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) is displayed, as the template itself is blank.
 ![Fork 1](fork1.jpg)
 Make sure to fork all the branches.
 ![Fork 2](fork2.jpg)
