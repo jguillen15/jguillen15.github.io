@@ -49,4 +49,4 @@ Now, all is set up and the tool is ready to use.
 
 ## Future Work
 
-Merge branches with main
+All the developed code is not hosted on the main branch of the [iGEM Actions](https://github.com/iGEM-Engineering/iGEM-actions) and the [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template) repositories. As future work, the changes made will merge with the main branch. Also, a local version of the SBOL utility [calculate_complexity_scores.py](https://github.com/SynBioDex/SBOL-utilities/blob/develop/sbol_utilities/calculate_complexity_scores.py) is being used, as the latest release of SBOL Utilities does not contain this script. So, as soon the new release comes out, the local script will be removed from the repository and the new released version will be used instead.
