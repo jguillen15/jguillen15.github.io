@@ -26,7 +26,7 @@ The aim of this package is to simplify the package creation process, streamline 
 The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template) repository serve as a template for anyone that wants to create a new one. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on this repo. Two succesful examples of this template can be found in the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) and the [iGEM RBS Collection](https://github.com/iGEM-Engineering/iGEM-RBS-collection) package.
 
 # Steps
-Please follow these steps to succesfully use the tool.
+Please follow these next steps to succesfully use the tool.
 ## 1. Fork the iGEM Package Template repository
 Go to the [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template) repository and fork it. Here in the images an example with the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) is displayed, as the template itself is blank.
 ![Fork 1](fork1.jpg)
@@ -34,18 +34,18 @@ Make sure to fork all the branches.
 ![Fork 2](fork2.jpg)
 
 ## 2. Set up the repository
-Go to the **Actions** tab in your forked repository and click on "**I understand my workflows, go ahead and enable them**"
+Go to the **Actions** tab in your forked repository and click on **I understand my workflows, go ahead and enable them**
 ![Allow workflow](allow_workflow.jpg)
-Now, please go to the **Settings** tab. Then, on the left-hand side panel, go to **Actions->General**, and make sure the workflow has reading and and writing permissions. Also, check the box that says "**Allow GitHub Actions to create and approve pull requests**", this will be needed to update the files in the repository.
+Now, please go to the **Settings** tab. Then, on the left-hand side panel, go to **Actions->General**, and make sure the workflow has reading and and writing permissions. Also, check the box that says **Allow GitHub Actions to create and approve pull requests**, this will be needed to update the files in the repository.
 ![Workflow permissions](workflow_permissions.jpg)
 
 ## 3. Set up IDT Credentials GitHub Secret
 Finally, to check the synthesizability of your sequences by computing the complexity scores, you will need to set up a GitHub secret with your [Integrated DNA Technologies(IDT)](https://www.idtdna.com/pages) account credentials. As the software tool uses the IDT API, If you don't have an account, you will need to [create one](https://www.idtdna.com/site/Account/AccountSetup). 
 ![Secrets 1](secrets1.jpg)
-Provide the requested information in the following format:
+Provide the requested information in the following format
 ![Secrets 2](secrets2.jpg)
 
-Now, all is set up and the tool is ready to use!
+Now, all is set up and the tool is ready to use.
 
 ## Future Work
 
