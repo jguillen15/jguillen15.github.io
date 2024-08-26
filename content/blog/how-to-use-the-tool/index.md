@@ -25,15 +25,17 @@ The aim of this package is to simplify the package creation process, streamline 
 
 The iGEM Package Template repository serve as a template for if anyone wants to clone an existing package for their own use or if they want to create a new one. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on this repo.
 
-## Setting up the repository
+
 ## Fork the iGEM Package Template repository
 
 ![Fork 1](fork1.jpg)
 ![Fork 2](fork2.jpg)
 
-
+## Setting up the repository
 ![Allow workflow](allow_workflow.jpg)
 ![Workflow permissions](workflow_permissions.jpg)
+
+## Using GitHub Secrets
 ![Secrets 1](secrets1.jpg)
 ![Secrets 2](secrets2.jpg)
 
