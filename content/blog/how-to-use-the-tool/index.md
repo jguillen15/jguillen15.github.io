@@ -25,17 +25,17 @@ The aim of this package is to simplify the package creation process, streamline 
 
 The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template) repository serve as a template for anyone that wants to create a new one. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on this repo. Two succesful examples of this template can be found in the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) and the [iGEM RBS Collection](https://github.com/iGEM-Engineering/iGEM-RBS-collection) package.
 
-
-## Fork the iGEM Package Template repository
+# Steps
+## 1. Fork the iGEM Package Template repository
 
 ![Fork 1](fork1.jpg)
 ![Fork 2](fork2.jpg)
 
-## Setting up the repository
+## 2. Setting up the repository
 ![Allow workflow](allow_workflow.jpg)
 ![Workflow permissions](workflow_permissions.jpg)
 
-## Using GitHub Secrets
+## 3. Set up IDT Credentials GitHub Secret
 ![Secrets 1](secrets1.jpg)
 ![Secrets 2](secrets2.jpg)
 
