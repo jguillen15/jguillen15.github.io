@@ -20,10 +20,10 @@ authors:
 Hi 👋
 
 ## Overview
-The work was done mainly in two repositories, both part of the iGEM Engineering Organization. The iGEM Package Template and the iGEM Actions repository. Both are intended to work together. The iGEM Actions repository contains the GitHub actions and scripts required to processs and build iGEM distribution packages.
+The work done can be found mainly in two repositories, the [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template) and the [iGEM Actions](https://github.com/iGEM-Engineering/iGEM-actions) repository, both part of the [iGEM Engineering Organization](https://github.com/iGEM-Engineering). The two repositories are intended to work together. The [iGEM Actions](https://github.com/iGEM-Engineering/iGEM-actions) repository contains the GitHub actions and scripts required to processs and build the iGEM distribution packages.
 The aim of this package is to simplify the package creation process, streamline package development and ensure the robust creation and utilization of the iGEM distribution.
 
-The iGEM Package Template repository serve as a template for if anyone wants to clone an existing package for their own use or if they want to create a new one. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on this repo.
+The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template) repository serve as a template for anyone that wants to create a new one. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on this repo. Two succesful examples of this template can be found in the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) and the [iGEM RBS Collection](https://github.com/iGEM-Engineering/iGEM-RBS-collection) package.
 
 
 ## Fork the iGEM Package Template repository
