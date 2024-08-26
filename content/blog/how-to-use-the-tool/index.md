@@ -46,6 +46,7 @@ Provide the requested information in the following format:
 ![Secrets 2](secrets2.jpg)
 
 Now, all is set up and the tool is ready to use!
+
 ## Future Work
 
 Merge branches with main
