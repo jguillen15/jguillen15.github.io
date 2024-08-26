@@ -1,6 +1,6 @@
 ---
 title: 🧑‍💻️ GitHub Actions in the iGEM Distribution repository
-summary: Let's dive into GitHub Actions and their role in the iGEM Engineering distribution repository
+summary: GitHub Actions and their role in the iGEM Engineering distribution repository
 date: 2024-06-11
 
 # Featured image
