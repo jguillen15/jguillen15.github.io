@@ -46,6 +46,8 @@ Please go to the **Settings** tab on your repository. Then, on the left-hand sid
 Make sure to name your secret **IDT_CREDENTIALS**, and provide your IDT account details in the dictionary format **{"username":"X","password":"X","ClientID":"X","ClientSecret":"X"}**
 ![Secrets 2](secrets2.jpg)
 
+To find your API credentials in the IDT webpage, click on your account's name at the top of the page, and then click **My account->API Access**
+
 Now, all is set up and the tool is ready to use.
 
 ## Future Work
