@@ -6,7 +6,7 @@ date: 2024-06-22
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [Link](https://sbolstandard.org/)'
+  caption: 'Image credit: SBOL-standard'
 
 authors:
   - admin
@@ -36,3 +36,5 @@ The script takes as an input an SBOL document with the DNA sequences in it, and 
 Complexity Scores in an SBOL document can be annotated with creation and modification dates, as well as with an associated identity. We can generate an **Activity** component with the report identification and timestamp. After adding the score to the SBOL document as a **Measure** of the **Sequence** component, we can link both objects using the **prov:wasGeneratedBy** property. For the unit of the measurement we can use the [OM-Ontology of Units of Measure](http://www.ontology-of-units-of-measure.org/), specifically using [number unit](http://www.ontology-of-units-of-measure.org/resource/om-2/NumberUnit) and for its type we can make use of the [EDAM - Bioscientific Data Analysis Ontology](https://bioportal.bioontology.org/ontologies/EDAM), particularly using [Sequence complexity report](https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Fdata_1259).
 
 ![Proposed approach for capturing a sequence's complexity score in SBOL.](complexity_score_annotation.png)
+
+Script can be found in: [Complexity scores calculator SBOL utility](https://github.com/SynBioDex/SBOL-utilities/blob/develop/sbol_utilities/calculate_complexity_scores.py)
