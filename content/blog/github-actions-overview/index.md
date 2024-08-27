@@ -6,7 +6,7 @@ date: 2024-06-03
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [Link](https://webera.blog/how-to-create-your-own-custom-action-for-using-in-github-actions-workflows-41744264fc32)'
+  caption: 'Image credit: Webera-blog'
 
 authors:
   - admin

@@ -6,7 +6,7 @@ date: 2024-06-11
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [Link](https://igem.org/)'
+  caption: 'Image credit: iGEM Organization'
 
 authors:
   - admin
@@ -125,7 +125,7 @@ Build and validate final packages.
 * **${{ github.action_path }}**: The path to the directory containing the action definition file.
 * **${{ github.ref }}**: The branch or tag ref that triggered the workflow.
 
-
+There is a [centralized page](https://github.com/iGEM-Engineering/iGEM-actions) that manages the iGEM Engineering organization GitHub Actions.
 
 
 

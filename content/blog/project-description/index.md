@@ -6,7 +6,7 @@ date: 2024-05-27
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [Link](https://developers.google.com/open-source/gsoc/resources/marketing?hl=es-419)'
+  caption: 'Image credit: Developers-Google'
 
 authors:
   - admin
