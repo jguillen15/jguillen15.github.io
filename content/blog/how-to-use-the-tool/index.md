@@ -23,7 +23,7 @@ Hi 👋
 The work done can be found mainly in two repositories, the [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template/tree/gsoc2024) and the [iGEM Actions](https://github.com/jguillen15/iGEM-actions/tree/gsoc_new) repository, both part of the [iGEM Engineering Organization](https://github.com/iGEM-Engineering). The two repositories are intended to work together. The [iGEM Actions](https://github.com/jguillen15/iGEM-actions/tree/gsoc_new) repository contains the GitHub actions and scripts required to processs and build the iGEM distribution packages.
 The aim of this package is to simplify the package creation process, streamline package development and ensure the robust creation and utilization of the iGEM distribution.
 
-The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template/tree/gsoc2024) repository serve as a template for anyone that wants to create a new one. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on this repo. Two succesful examples of this template can be found in the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) and the [iGEM RBS Collection](https://github.com/iGEM-Engineering/iGEM-RBS-collection) package.
+The [iGEM Package Template](https://github.com/iGEM-Engineering/iGEM-package-template/tree/gsoc2024) repository can be used to build new distribution packages. This repository calls the iGEM Actions one and activates the corresponding GitHub Actions on the repository. Two succesful examples of this template can be found in the [Anderson Promoters Collection](https://github.com/iGEM-Engineering/iGEM-Anderson-Promoters) and the [iGEM RBS Collection](https://github.com/iGEM-Engineering/iGEM-RBS-collection) package.
 
 # Steps
 Please follow these next steps to succesfully use the tool.
@@ -41,8 +41,9 @@ Now, please go to the **Settings** tab. Then, on the left-hand side panel, go to
 
 ## 3. Set up IDT Credentials GitHub Secret
 Finally, to check the synthesizability of your sequences by computing the complexity scores, you will need to set up a GitHub secret with your [Integrated DNA Technologies(IDT)](https://www.idtdna.com/pages) account credentials. As the software tool uses the IDT API, If you don't have an account, you will need to [create one](https://www.idtdna.com/site/Account/AccountSetup). 
+Please go to the **Settings** tab on your repository. Then, on the left-hand side panel, go to **Secrets and variables->Actions**, and select **New repository secret**. 
 ![Secrets 1](secrets1.jpg)
-Provide the requested information in the following format
+Make sure to name your secret **IDT_CREDENTIALS**, and provide your IDT account details in the dictionary format **{"username":"X","password":"X","ClientID":"X","ClientSecret":"X"}**
 ![Secrets 2](secrets2.jpg)
 
 Now, all is set up and the tool is ready to use.
